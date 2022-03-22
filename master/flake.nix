@@ -8,8 +8,8 @@
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
   inputs.src-parsefixed-master.flake = false;
+  inputs.src-parsefixed-master.ref   = "refs/heads/master";
   inputs.src-parsefixed-master.owner = "jlp765";
-  inputs.src-parsefixed-master.ref   = "master";
   inputs.src-parsefixed-master.repo  = "parsefixed";
   inputs.src-parsefixed-master.type  = "github";
   
