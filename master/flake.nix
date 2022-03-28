@@ -11,7 +11,6 @@
   inputs.src-parsefixed-master.ref   = "refs/heads/master";
   inputs.src-parsefixed-master.owner = "jlp765";
   inputs.src-parsefixed-master.repo  = "parsefixed";
-  inputs.src-parsefixed-master.dir   = "";
   inputs.src-parsefixed-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
