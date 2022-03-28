@@ -11,6 +11,7 @@
   inputs.src-parsefixed-0_1_2.ref   = "refs/tags/0.1.2";
   inputs.src-parsefixed-0_1_2.owner = "jlp765";
   inputs.src-parsefixed-0_1_2.repo  = "parsefixed";
+  inputs.src-parsefixed-0_1_2.dir   = "";
   inputs.src-parsefixed-0_1_2.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
